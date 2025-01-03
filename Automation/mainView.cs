@@ -37,6 +37,7 @@ namespace Automation
             groupBox0.Show();
             groupBox1.Hide();
             groupBox2.Hide();
+            groupBox3.Hide();
         }
         //Ekleme Butonu
         private void add_btn_Click(object sender, EventArgs e)
@@ -354,15 +355,20 @@ namespace Automation
         {
             LoadCategories();
         }
-        //Arama butonu
-        private void textBox1_Enter_1(object sender, EventArgs e)
+
+        private void AddCartButtonToPurchase()
         {
-
-        }
-
-        private void textBox1_Leave_1(object sender, EventArgs e)
-        {
-
+            if (dataGridView3.Columns["AddToCart"] == null)
+            {
+                // Sepete ekle butonu
+                DataGridViewButtonColumn cartButtonColumn = new DataGridViewButtonColumn
+                {
+                    Name = "AddToCart",
+                    Text = "Sepete Ekle",
+                    UseColumnTextForButtonValue = true
+                };
+                dataGridView3.Columns.Add(cartButtonColumn);
+            }
         }
 
         private void satimAlim_Click(object sender, EventArgs e)
@@ -371,6 +377,70 @@ namespace Automation
             groupBox1.Hide();
             groupBox2.Hide();
             groupBox3.Show();
+            //DataGride veri bağlama
+            using (SQLiteConnection connection = new SQLiteConnection(path))
+            {
+                try
+                {
+                    connection.Open();
+                    SQLiteDataAdapter adapter = new SQLiteDataAdapter(cmd, connection);
+                    DataTable dataTable = new DataTable();
+                    adapter.Fill(dataTable);
+                    dataGridView3.DataSource = dataTable; // DataGridView'e veriyi bağlayın.
+
+                    AddCartButtonToPurchase(); // Sepete ekle butonunu ekle
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Hata: " + ex.Message);
+                }
+            }
+        }
+        // Sepet için ürün listesi
+        private List<(string isim, string fiyat)> sepetListesi = new List<(string, string)>();
+
+        private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == dataGridView3.Columns["AddToCart"].Index && e.RowIndex >= 0)
+            {
+                // Seçili satırın bilgilerini al
+                DataGridViewRow selectedRow = dataGridView3.Rows[e.RowIndex];
+                string isim = selectedRow.Cells["isim"].Value.ToString();
+                string fiyat = selectedRow.Cells["fiyat"].Value.ToString();
+
+                var existingItem = sepetListesi.FirstOrDefault(item => item.isim == isim);
+
+                if (existingItem.isim != null) // Ürün sepette varsa
+                {
+                    DialogResult result = MessageBox.Show(
+                        $"'{isim}' zaten sepetinizde. Tekrar eklemek ister misiniz?",
+                        "Ürün Sepette",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Question
+                    );
+
+                    if (result == DialogResult.No) return; // Kullanıcı tekrar eklemek istemezse işlem durdurulur
+                }
+
+                // Ürünü sepete ekle
+                sepetListesi.Add((isim, fiyat));
+
+                // Bilgilendirme mesajı göster
+                MessageBox.Show($"{isim} sepete eklendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+        }
+        
+
+        private void sptEkle_btn_Click(object sender, EventArgs e)
+        {
+            Sepet sepetForm = new Sepet();
+
+            // Sepetteki ürünleri formda göster
+            sepetForm.LoadSepet(sepetListesi);
+
+            // Sepet formunu aç
+            sepetForm.ShowDialog();
         }
     }
 }

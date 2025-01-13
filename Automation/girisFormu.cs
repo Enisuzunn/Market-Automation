@@ -14,7 +14,7 @@ namespace Automation
 {
     public partial class girisFormu : Form
     {
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
+        string path = @"Data source = database.db; Version = 3;";
         string query = "SELECT COUNT(*) FROM kayitbilgileri WHERE username = @username AND password = @password";
 
         public girisFormu()
@@ -79,8 +79,25 @@ namespace Automation
 
         private void signup_btn_Click(object sender, EventArgs e)
         {
+            username_box.Text = "";
+            password_box.Text = "";
+            checkBox1.Checked = false;
             kayıtFormu kayıt = new kayıtFormu();
             kayıt.ShowDialog();
         }
+
+        private void lgn_btn_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                string username = username_box.Text;
+                mainView mainForm = new mainView(username);
+                MessageBox.Show($" Hoşgeldiniz {username}", "Giriş başarılı!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                mainView gecis = new mainView(username);
+                gecis.Show();
+                this.Hide();
+            }
+        }
     }
 }
+

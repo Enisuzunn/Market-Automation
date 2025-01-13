@@ -15,8 +15,8 @@ namespace Automation
     {
 
         PasswordForm passwordForm = new PasswordForm();
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
-        string updateText = @" UPDATE ürünbilgileri SET isim = @isim,  fiyat = @fiyat,  kategori = @kategori WHERE id = @id";
+        string path = @"Data source = database.db; Version = 3;";
+        string updateText = @" UPDATE ürünbilgileri SET adet = @adet, isim = @isim,  fiyat = @fiyat,  kategori = @kategori WHERE id = @id";
         int id = 0;
         public düzenle(int id)
         {
@@ -31,12 +31,19 @@ namespace Automation
 
         private void kydtdzn_btn_Click(object sender, EventArgs e)
         {
+            decimal adet;
             string isim = ısmdzn_txtbox.Text;          // Name TextBox
             string kategori = ktgrdzn_cmbbox.Text;    // Category ComboBox
             decimal fiyat;
-            if (string.IsNullOrWhiteSpace(ısmdzn_txtbox.Text) || string.IsNullOrWhiteSpace(fytdzn_txtbox.Text) || string.IsNullOrWhiteSpace(ktgrdzn_cmbbox.Text))
+            
+            if (string.IsNullOrWhiteSpace(adtbox2.Text) || string.IsNullOrWhiteSpace(ısmdzn_txtbox.Text) || string.IsNullOrWhiteSpace(fytdzn_txtbox.Text) || string.IsNullOrWhiteSpace(ktgrdzn_cmbbox.Text))
             {
                 MessageBox.Show("Kullanıcı adı , şifre ve kategoriler boş olmamalı");
+                return;
+            }
+            if (!decimal.TryParse(adtbox2.Text, out adet))
+            {
+                MessageBox.Show("Lütfen geçerli bir adet giriniz.");
                 return;
             }
             // Fiyatın geçerliliğini kontrol et
@@ -47,6 +54,7 @@ namespace Automation
             }
             if (passwordForm.ShowDialog() == DialogResult.OK && passwordForm.IsAuthenticated)
             {
+                
                 // SQLite bağlantısı ile veritabanına veri ekle
                 using (SQLiteConnection conn = new SQLiteConnection(path))
                 {
@@ -55,7 +63,9 @@ namespace Automation
                         conn.Open();
                         using (SQLiteCommand cmd = new SQLiteCommand(updateText, conn))
                         {
+
                             // Sorgu parametrelerini ayarla
+                            cmd.Parameters.AddWithValue("adet", adet);
                             cmd.Parameters.AddWithValue("@isim", isim);
                             cmd.Parameters.AddWithValue("@fiyat", fiyat);
                             cmd.Parameters.AddWithValue("@kategori", kategori);
@@ -69,7 +79,9 @@ namespace Automation
                                 MessageBox.Show("Ürün başarıyla değiştirildi!");
                                 ısmdzn_txtbox.Text = "";
                                 fytdzn_txtbox.Text = "";
-                                ktgrdzn_cmbbox.Text = "";
+                                adtbox2.Text = "";
+                                ktgrdzn_cmbbox.SelectedIndex = -1;
+                                ktgrdzn_cmbbox.SelectedItem = null;
                             }
                             else
                             {
@@ -81,6 +93,7 @@ namespace Automation
                     {
                         MessageBox.Show($"Hata: {ex.Message}");
                     }
+                    
                 }
             }
             else

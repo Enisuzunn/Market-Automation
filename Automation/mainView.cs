@@ -16,20 +16,32 @@ namespace Automation
    
     public partial class mainView : Form
     {
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
-        string cmd = "SELECT id, isim, fiyat, kategori FROM ürünbilgileri";
+        string path = @"Data source = database.db; Version = 3;";
+        string cmd = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri";
 
 
         int id = 0;
         
         public mainView(string username)
         {
-            InitializeComponent();
-            lblwelcome.Text = "WELCOME: " + username;
+            InitializeComponent();      
+            label1.Text = username;
+            label1.Font = new Font("Segoe UI", 16, FontStyle.Bold);
+            label1.ForeColor = Color.White;
             groupBox1.Hide();
             groupBox2.Hide();
             groupBox3.Hide();
-            sqlDataSource1.FillAsync();      
+            sqlDataSource1.FillAsync();
+            satinAlim_combobox.Text = "Lütfen seçim yapın...";
+            satinAlim_combobox.ForeColor = System.Drawing.Color.Black;
+            ctgr_combobox.Text += "Lütfen seçim yapın...";
+            ctgr_combobox.ForeColor = System.Drawing.Color.Black;
+            // Olayları bağlayın
+            satinAlim_combobox.Enter += SatinAlim_ComboBox_Enter;
+            satinAlim_combobox.Leave += SatinAlim_ComboBox_Leave;
+            ctgr_combobox.Enter += Ctgr_ComboBox_Enter;
+            ctgr_combobox.Leave += Ctgr_ComboBox_Leave;
+            
         }
         //Ev Butonu
         private void home_btn_Click(object sender, EventArgs e)
@@ -47,8 +59,10 @@ namespace Automation
                 if (addForm.ShowDialog() == DialogResult.OK)
                 {
                     LoadData(); // Ekleme sonrası verileri yenile
+                    
                 }
             }
+            Upload();
         }
         //DataGridde ürün değiştirme ve ürün silme butonlarını ekleme metodu
         private void AddEditAndDeleteButtons()
@@ -81,7 +95,7 @@ namespace Automation
             groupBox1.Show();
             groupBox2.Hide();
             groupBox3.Hide();
-            
+           
 
             using (SQLiteConnection connection = new SQLiteConnection(path))
             {
@@ -92,14 +106,14 @@ namespace Automation
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
                     dataGridView1.DataSource = dataTable; // DataGridView'e veriyi bağlayın.
+                    dataGridView1.Columns["id"].Visible = false;
                     AddEditAndDeleteButtons();
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("Hata: " + ex.Message);
-                }
+                }             
             }
-
         }
         //Data gridin üzerinde düzenleme butonunun metodu
         private void EditProduct(int id)
@@ -108,42 +122,61 @@ namespace Automation
             {
                 if (editForm.ShowDialog() == DialogResult.OK)
                 {
-                    LoadData(); // Düzenleme sonrası verileri yenile
+                    LoadData();
+                    
+                    // Düzenleme sonrası verileri yenile
                 }
             }
         }
+
         //Data Gridin üzerinde silme butonunun metodu
         private void DeleteProduct(int id)
-        {
-            try
-            {
-                DialogResult result = MessageBox.Show("Bu ürünü silmek istediğinize emin misiniz?",
-                                                      "Onay",
-                                                      MessageBoxButtons.YesNo,
-                                                      MessageBoxIcon.Warning);
-
-                if (result == DialogResult.Yes)
+        {   
+                try
                 {
-                    using (SQLiteConnection connection = new SQLiteConnection(path))
+                // Yönetici doğrulama formunu aç
+                using (deleteProducts delete = new deleteProducts())
+                {
+                    if (delete.ShowDialog() != DialogResult.OK)
                     {
-                        connection.Open();
-                        string query = "DELETE FROM ürünbilgileri WHERE id = @id";
-
-                        using (SQLiteCommand command = new SQLiteCommand(query, connection))
-                        {
-                            command.Parameters.AddWithValue("@id", id);
-                            command.ExecuteNonQuery();
-                            MessageBox.Show("Ürün başarıyla silindi!");
-                        }
+                        MessageBox.Show("Yönetici doğrulaması başarısız. İşlem iptal edildi.");
+                        return; // Yönetici doğrulaması yapılmazsa işlemden çık
                     }
-                    LoadData(); // Silme sonrası verileri yenile
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
+
+                // Kullanıcıya onay penceresi göster
+                DialogResult result = MessageBox.Show(
+                        "Bu ürünü silmek istediğinize emin misiniz?",
+                        "Onay",
+                        MessageBoxButtons.YesNo,
+                        MessageBoxIcon.Warning
+                    );
+
+                    if (result == DialogResult.Yes)
+                    {
+                        // SQLite bağlantısını ve işlemlerini yönet
+                        using (SQLiteConnection connection = new SQLiteConnection(path))
+                        {
+                            connection.Open();
+                            string query = "DELETE FROM ürünbilgileri WHERE id = @id";
+
+                            using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                            {
+                                command.Parameters.AddWithValue("@id", id);
+                                command.ExecuteNonQuery();
+                            }
+                        }
+                        // Başarı mesajı ve veri yenileme
+                        MessageBox.Show("Ürün başarıyla silindi!");
+                        LoadData(); // Verileri bir kez yenile
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Hata: " + ex.Message);
+                }
         }
+
         //Datagrid1 in sütun kontrolü
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -156,6 +189,7 @@ namespace Automation
             {
                 int id = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["id"].Value);
                 EditProduct(id);
+                Upload();
                 return; // İşlem tamamlandıktan sonra metodu sonlandır
             }
             else if (columnName == "Delete") // Silme butonuna tıklanmışsa
@@ -166,16 +200,42 @@ namespace Automation
                 if (id > 0)
                 {
                     DeleteProduct(id);
+                  
                 }
+
                 return; // İşlem tamamlandıktan sonra metodu sonlandır
             }
         }
         //Ürün Arama textboxu
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
             string filterText = textBox1.Text; // TextBox'taki metni al
             LoadFilteredProducts(filterText); // Filtreli ürünleri yükle
+        }
+        public void Upload()
+        {
+            try
+            {
+                using (SQLiteConnection connection = new SQLiteConnection(path))
+                {
+                    connection.Open();
+
+                    // Filtreye uygun SQL sorgusu
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri";
+
+                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        dataGridView1.DataSource = dataTable; // DataGridView'e bağla
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata: " + ex.Message);
+            }
         }
         private void LoadFilteredProducts(string filter)
         {
@@ -186,7 +246,7 @@ namespace Automation
                     connection.Open();
 
                     // Filtreye uygun SQL sorgusu
-                    string query = "SELECT id, isim, fiyat, kategori FROM ürünbilgileri WHERE isim LIKE @filter";
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri WHERE isim LIKE @filter";
 
                     using (SQLiteCommand command = new SQLiteCommand(query, connection))
                     {
@@ -206,6 +266,7 @@ namespace Automation
             }
         }
         //Textboxun üzerinde ara... yazısının olup tıklayınca onun gitmesi
+
         private void textBox1_Enter(object sender, EventArgs e)
         {
             
@@ -216,6 +277,7 @@ namespace Automation
             }
         }
         //Textboxun üzerinden etkileşimi bıraktıktan sonra ara... butonunun geri gelmesi
+
         private void textBox1_Leave(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text))
@@ -225,6 +287,7 @@ namespace Automation
             }
         }
         //Verileri güncellemesi
+
         private void LoadData()
         {
             try
@@ -250,6 +313,8 @@ namespace Automation
             groupBox1.Hide();
             groupBox2.Show();
             groupBox3.Hide();
+            ctgr_combobox.Text = "Lütfen seçim yapın...";
+
             using (SQLiteConnection connection = new SQLiteConnection(path))
             {
                 
@@ -260,7 +325,8 @@ namespace Automation
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
                     dataGridView2.DataSource = dataTable; // DataGridView'e veriyi bağlayın.
-                    
+                    dataGridView2.Columns["id"].Visible = false;
+
                 }
                 catch (Exception ex)
                 {
@@ -268,20 +334,18 @@ namespace Automation
                 }
             }
         }
+
         //Kategori butonundaki comboboxın eventi
         private void ctgr_combobox_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
             string selectedCategory = ctgr_combobox.SelectedItem.ToString();
-          
-
             try
             {
                 using (SQLiteConnection connection = new SQLiteConnection(path))
                 {
                     connection.Open();
 
-                    string query = "SELECT id, isim, fiyat, kategori FROM ürünbilgileri WHERE kategori = @kategori";
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri WHERE kategori = @kategori";
                     using (SQLiteCommand command = new SQLiteCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@kategori", selectedCategory);
@@ -289,13 +353,15 @@ namespace Automation
                         SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
                         DataTable dataTable = new DataTable();
                         adapter.Fill(dataTable);
+                        
 
                         if (dataTable.Rows.Count > 0)
                         {
-                            
+
                             dataGridView2.Columns.Clear();
                             dataGridView2.DataSource = null;
                             dataGridView2.DataSource = dataTable;
+                            dataGridView2.Columns["id"].Visible = false;
 
                             foreach (DataRow row in dataTable.Rows)
                             {
@@ -311,39 +377,13 @@ namespace Automation
                         else
                         {
                             MessageBox.Show("Bu kategoriye ait ürün bulunamadı.");
-                            
+
                         }
 
                         dataGridView2.DataSource = dataTable; // DataGridView'e bağla
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Hata: " + ex.Message);
-            }
-        }
-        //Kategorileri yüklemesi
-        private void LoadCategories()
-        {
-            try
-            {
-                using (SQLiteConnection connection = new SQLiteConnection(path))
-                {
-                    connection.Open();
-
-                    // Tablodan kategori isimlerini getir
-                    string query = "SELECT DISTINCT kategori FROM ürünbilgileri";
-                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
-                    {
-                        SQLiteDataReader reader = command.ExecuteReader();
-
-                        while (reader.Read())
-                        {
-                            ctgr_combobox.Items.Add(reader["kategori"].ToString()); // Kategorileri ekle
-                        }
-                    }
-                }
+                
             }
             catch (Exception ex)
             {
@@ -351,19 +391,34 @@ namespace Automation
             }
         }
 
-        private void mainView_Load(object sender, EventArgs e)
+        private void Ctgr_ComboBox_Enter(object sender, EventArgs e)
         {
-            LoadCategories();
+            // Kullanıcı ComboBox'a tıkladığında metni temizle
+            if (ctgr_combobox.Text == "Lütfen seçim yapın...")
+            {
+                ctgr_combobox.Text = "";
+                ctgr_combobox.ForeColor = System.Drawing.Color.Black;
+            }
         }
 
+        private void Ctgr_ComboBox_Leave(object sender, EventArgs e)
+        {
+            // Kullanıcı ComboBox'dan çıkınca metin boşsa varsayılan yazıyı geri getir
+            if (string.IsNullOrWhiteSpace(ctgr_combobox.Text))
+            {
+              
+                ctgr_combobox.Text = "Lütfen seçim yapın...";
+                ctgr_combobox.ForeColor = System.Drawing.Color.Black;
+            }
+        }
         private void AddCartButtonToPurchase()
         {
-            if (dataGridView3.Columns["AddToCart"] == null)
+            if (dataGridView3.Columns["sepet"] == null)
             {
                 // Sepete ekle butonu
                 DataGridViewButtonColumn cartButtonColumn = new DataGridViewButtonColumn
                 {
-                    Name = "AddToCart",
+                    Name = "sepet",
                     Text = "Sepete Ekle",
                     UseColumnTextForButtonValue = true
                 };
@@ -377,6 +432,7 @@ namespace Automation
             groupBox1.Hide();
             groupBox2.Hide();
             groupBox3.Show();
+            satinAlim_combobox.Text = "Lütfen seçim yapın...";
             //DataGride veri bağlama
             using (SQLiteConnection connection = new SQLiteConnection(path))
             {
@@ -387,6 +443,7 @@ namespace Automation
                     DataTable dataTable = new DataTable();
                     adapter.Fill(dataTable);
                     dataGridView3.DataSource = dataTable; // DataGridView'e veriyi bağlayın.
+                    dataGridView3.Columns["id"].Visible = false;
 
                     AddCartButtonToPurchase(); // Sepete ekle butonunu ekle
                 }
@@ -397,50 +454,223 @@ namespace Automation
             }
         }
         // Sepet için ürün listesi
-        private List<(string isim, string fiyat)> sepetListesi = new List<(string, string)>();
+        public List<(int adet, string isim, string fiyat)> sepetListesi = new List<(int, string, string)>();
+        //private string adet;
 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.ColumnIndex == dataGridView3.Columns["AddToCart"].Index && e.RowIndex >= 0)
+            if (e.ColumnIndex == dataGridView3.Columns["sepet"].Index && e.RowIndex >= 0)
             {
                 // Seçili satırın bilgilerini al
                 DataGridViewRow selectedRow = dataGridView3.Rows[e.RowIndex];
+                int mevcutAdet = Convert.ToInt32(selectedRow.Cells["adet"].Value);
                 string isim = selectedRow.Cells["isim"].Value.ToString();
                 string fiyat = selectedRow.Cells["fiyat"].Value.ToString();
 
-                var existingItem = sepetListesi.FirstOrDefault(item => item.isim == isim);
-
-                if (existingItem.isim != null) // Ürün sepette varsa
+                adetForm adet = new adetForm(isim, mevcutAdet);
+                if (adet.ShowDialog() == DialogResult.OK)
                 {
-                    DialogResult result = MessageBox.Show(
-                        $"'{isim}' zaten sepetinizde. Tekrar eklemek ister misiniz?",
-                        "Ürün Sepette",
-                        MessageBoxButtons.YesNo,
-                        MessageBoxIcon.Question
-                    );
+                    int secilenAdet = adet.SecilenAdet;
 
-                    if (result == DialogResult.No) return; // Kullanıcı tekrar eklemek istemezse işlem durdurulur
+                    if (secilenAdet <= mevcutAdet)
+                    {
+                        // Ürünü sepete ekle
+                        sepetListesi.Add((secilenAdet, isim, fiyat));
+
+                        // Stok güncellemesi
+                        selectedRow.Cells["adet"].Value = mevcutAdet - secilenAdet;
+
+                        // Bilgilendirme mesajı göster
+                        MessageBox.Show($"{isim} sepete eklendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                       
+                    }
+                    else
+                    {
+                        MessageBox.Show("Yeterli adet yok!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
-
-                // Ürünü sepete ekle
-                sepetListesi.Add((isim, fiyat));
-
-                // Bilgilendirme mesajı göster
-                MessageBox.Show($"{isim} sepete eklendi!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
-        
+      
 
         private void sptEkle_btn_Click(object sender, EventArgs e)
         {
-            Sepet sepetForm = new Sepet();
-
+            Sepet sepetForm = new Sepet(sepetListesi);
+            
             // Sepetteki ürünleri formda göster
             sepetForm.LoadSepet(sepetListesi);
 
             // Sepet formunu aç
             sepetForm.ShowDialog();
+            
+           
+        }
+
+        private void satinAlim_combobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedCategory = satinAlim_combobox.SelectedItem.ToString();
+
+
+            try
+            {
+                using (SQLiteConnection connection = new SQLiteConnection(path))
+                {
+                    connection.Open();
+
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri WHERE kategori = @kategori";
+                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@kategori", selectedCategory);
+
+                        SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        if (dataTable.Rows.Count > 0)
+                        {
+
+                            dataGridView3.Columns.Clear();
+                            dataGridView3.DataSource = null;
+                            dataGridView3.DataSource = dataTable;
+                            dataGridView3.Columns["id"].Visible = false;
+                            AddCartButtonToPurchase();
+
+                            foreach (DataRow row in dataTable.Rows)
+                            {
+                                string kategori = row["kategori"].ToString();
+                                if (!satinAlim_combobox.Items.Contains(kategori))
+                                {
+                                    satinAlim_combobox.Items.Add(kategori);
+                                }
+                            }
+                            MessageBox.Show("Bulunan ürün sayısı: " + dataTable.Rows.Count);
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Bu kategoriye ait ürün bulunamadı.");
+
+                        }
+
+                        dataGridView3.DataSource = dataTable; // DataGridView'e bağla
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata: " + ex.Message);
+            }
+        }
+        public void s_Upload()
+        {
+            try
+            {
+                using (SQLiteConnection connection = new SQLiteConnection(path))
+                {
+                    connection.Open();
+
+                    // Filtreye uygun SQL sorgusu
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri";
+
+                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+                        dataGridView3.DataSource = dataTable; // DataGridView'e bağla
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata: " + ex.Message);
+            }
+        }
+        private void SatinAlim_ComboBox_Enter(object sender, EventArgs e)
+        {
+            // Kullanıcı ComboBox'a tıkladığında metni temizle
+            if (satinAlim_combobox.Text == "Lütfen seçim yapın...")
+            {
+                satinAlim_combobox.Text = "";
+                satinAlim_combobox.ForeColor = System.Drawing.Color.Black;
+            }
+        }
+        private void SatinAlim_ComboBox_Leave(object sender, EventArgs e)
+        {
+            // Kullanıcı ComboBox'dan çıkınca metin boşsa varsayılan yazıyı geri getir
+            if (string.IsNullOrWhiteSpace(satinAlim_combobox.Text))
+            {
+                satinAlim_combobox.Text = "Lütfen seçim yapın...";
+                satinAlim_combobox.ForeColor = System.Drawing.Color.Black;
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+            string filterText = textBox2.Text; // TextBox'taki metni al
+            LoadFilteredProducts2(filterText); // Filtreli ürünleri yükle
+        }
+        private void LoadFilteredProducts2(string filter)
+        {
+            try
+            {
+                using (SQLiteConnection connection = new SQLiteConnection(path))
+                {
+                    connection.Open();
+
+                    // Filtreye uygun SQL sorgusu
+                    string query = "SELECT adet, id, isim, fiyat, kategori FROM ürünbilgileri WHERE isim LIKE @filter";
+
+                    using (SQLiteCommand command = new SQLiteCommand(query, connection))
+                    {
+                        command.Parameters.AddWithValue("@filter", $"%{filter}%"); // Filtre parametresi
+
+                        SQLiteDataAdapter adapter = new SQLiteDataAdapter(command);
+                        DataTable dataTable = new DataTable();
+                        adapter.Fill(dataTable);
+
+                        dataGridView3.DataSource = dataTable; // DataGridView'e bağla
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hata: " + ex.Message);
+            }
+        }
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+
+            if (textBox2.Text == "Ara...")
+            {
+                textBox2.Text = "";
+                textBox2.ForeColor = Color.Black; // Placeholder yerine metin yazarken siyah yap
+            }
+        }
+        //Textboxun üzerinden etkileşimi bıraktıktan sonra ara... butonunun geri gelmesi
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(textBox2.Text))
+            {
+                textBox2.Text = "Ara...";
+                textBox2.ForeColor = Color.Gray; // Placeholder için gri renk
+            }
+        }
+
+        private void cks_btn_Click(object sender, EventArgs e)
+        {
+            DialogResult cıkıs = MessageBox.Show(
+                      "Uygulamadan çıkmak istediğinize emin misiniz?","Çıkış",
+                       MessageBoxButtons.YesNo,
+                       MessageBoxIcon.Question
+                   );
+            if(cıkıs == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+           
         }
     }
 }

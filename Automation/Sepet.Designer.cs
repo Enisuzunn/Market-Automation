@@ -30,10 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sepet));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.labelToplamFiyat = new System.Windows.Forms.Label();
             this.btnIptal = new DevExpress.XtraEditors.SimpleButton();
             this.btnSatinAl = new DevExpress.XtraEditors.SimpleButton();
-            this.lblToplamFiyat = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.adet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.isim = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -43,46 +44,52 @@
             // 
             // groupControl1
             // 
-            this.groupControl1.CaptionImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("groupControl1.CaptionImageOptions.SvgImage")));
+            this.groupControl1.CaptionImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("groupControl1.CaptionImageOptions.Image")));
+            this.groupControl1.Controls.Add(this.labelToplamFiyat);
             this.groupControl1.Controls.Add(this.btnIptal);
             this.groupControl1.Controls.Add(this.btnSatinAl);
-            this.groupControl1.Controls.Add(this.lblToplamFiyat);
             this.groupControl1.Controls.Add(this.dataGridView1);
-            this.groupControl1.Location = new System.Drawing.Point(-3, -2);
+            this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Light;
+            this.groupControl1.Location = new System.Drawing.Point(-3, -1);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(534, 512);
+            this.groupControl1.Size = new System.Drawing.Size(534, 511);
             this.groupControl1.TabIndex = 2;
             this.groupControl1.Text = "Sepetim";
             // 
+            // labelToplamFiyat
+            // 
+            this.labelToplamFiyat.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelToplamFiyat.Location = new System.Drawing.Point(15, 251);
+            this.labelToplamFiyat.Name = "labelToplamFiyat";
+            this.labelToplamFiyat.Size = new System.Drawing.Size(310, 28);
+            this.labelToplamFiyat.TabIndex = 4;
+            this.labelToplamFiyat.Text = "Toplam Fiyat: 0";
+            // 
             // btnIptal
             // 
-            this.btnIptal.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnIptal.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnIptal.Appearance.Options.UseFont = true;
-            this.btnIptal.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnIptal.ImageOptions.SvgImage")));
-            this.btnIptal.Location = new System.Drawing.Point(295, 407);
+            this.btnIptal.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnIptal.ImageOptions.Image")));
+            this.btnIptal.Location = new System.Drawing.Point(309, 388);
             this.btnIptal.Name = "btnIptal";
-            this.btnIptal.Size = new System.Drawing.Size(95, 47);
+            this.btnIptal.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
+            this.btnIptal.Size = new System.Drawing.Size(106, 54);
             this.btnIptal.TabIndex = 3;
             this.btnIptal.Text = "İptal";
+            this.btnIptal.Click += new System.EventHandler(this.btnIptal_Click);
             // 
             // btnSatinAl
             // 
-            this.btnSatinAl.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSatinAl.Appearance.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSatinAl.Appearance.Options.UseFont = true;
-            this.btnSatinAl.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSatinAl.ImageOptions.SvgImage")));
-            this.btnSatinAl.Location = new System.Drawing.Point(109, 407);
+            this.btnSatinAl.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSatinAl.ImageOptions.Image")));
+            this.btnSatinAl.Location = new System.Drawing.Point(93, 388);
             this.btnSatinAl.Name = "btnSatinAl";
-            this.btnSatinAl.Size = new System.Drawing.Size(95, 47);
+            this.btnSatinAl.PaintStyle = DevExpress.XtraEditors.Controls.PaintStyles.Light;
+            this.btnSatinAl.Size = new System.Drawing.Size(125, 54);
             this.btnSatinAl.TabIndex = 2;
             this.btnSatinAl.Text = "Satın Al";
-            // 
-            // lblToplamFiyat
-            // 
-            this.lblToplamFiyat.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblToplamFiyat.Location = new System.Drawing.Point(15, 321);
-            this.lblToplamFiyat.Name = "lblToplamFiyat";
-            this.lblToplamFiyat.Size = new System.Drawing.Size(108, 28);
-            this.lblToplamFiyat.TabIndex = 1;
+            this.btnSatinAl.Click += new System.EventHandler(this.btnSatinAl_Click);
             // 
             // dataGridView1
             // 
@@ -92,13 +99,21 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.adet,
             this.isim,
             this.fiyat});
-            this.dataGridView1.Location = new System.Drawing.Point(0, 30);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 31);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(534, 184);
+            this.dataGridView1.Size = new System.Drawing.Size(534, 202);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // adet
+            // 
+            this.adet.HeaderText = "adet";
+            this.adet.Name = "adet";
+            this.adet.ReadOnly = true;
             // 
             // isim
             // 
@@ -118,6 +133,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(531, 511);
             this.Controls.Add(this.groupControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Sepet";
             this.Text = "Sepet";
             this.Load += new System.EventHandler(this.SepetForm_Load);
@@ -131,10 +148,11 @@
         #endregion
 
         private DevExpress.XtraEditors.GroupControl groupControl1;
-        private System.Windows.Forms.Label lblToplamFiyat;
         private System.Windows.Forms.DataGridView dataGridView1;
         private DevExpress.XtraEditors.SimpleButton btnIptal;
         private DevExpress.XtraEditors.SimpleButton btnSatinAl;
+        private System.Windows.Forms.Label labelToplamFiyat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn adet;
         private System.Windows.Forms.DataGridViewTextBoxColumn isim;
         private System.Windows.Forms.DataGridViewTextBoxColumn fiyat;
     }

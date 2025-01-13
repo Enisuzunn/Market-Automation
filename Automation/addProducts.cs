@@ -14,8 +14,8 @@ namespace Automation
     public partial class addProducts : Form
     {
         PasswordForm passwordForm = new PasswordForm();
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
-        string insertText = "INSERT INTO ürünbilgileri (isim, fiyat, kategori) VALUES (@isim, @fiyat, @kategori)";
+        string path = @"Data source = database.db; Version = 3;";
+        string insertText = "INSERT INTO ürünbilgileri (adet, isim, fiyat, kategori) VALUES (@adet, @isim, @fiyat, @kategori)";
         
 
         public addProducts(int id)
@@ -25,12 +25,18 @@ namespace Automation
 
         private void button1_Click(object sender, EventArgs e)
         {
+            decimal adet;
             string isim = textBox1.Text;          // Name TextBox
             string kategori = comboBox1.Text;    // Category ComboBox
             decimal fiyat;
-            if (string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(comboBox1.Text))
+            if (string.IsNullOrWhiteSpace(adtbox.Text) || string.IsNullOrWhiteSpace(textBox1.Text) || string.IsNullOrWhiteSpace(textBox2.Text) || string.IsNullOrWhiteSpace(comboBox1.Text))
             {
-                MessageBox.Show("Kullanıcı adı , şifre ve kategoriler boş olmamalı");
+                MessageBox.Show("Kullanıcı adı , şifre , ürün adedi ve kategoriler boş olmamalı");
+                return;
+            }
+            if (!decimal.TryParse(adtbox.Text, out adet))
+            {
+                MessageBox.Show("Lütfen geçerli bir adet giriniz.");
                 return;
             }
             // Fiyatın geçerliliğini kontrol et
@@ -49,7 +55,8 @@ namespace Automation
                     conn.Open();
                     using (SQLiteCommand cmd = new SQLiteCommand(insertText, conn))
                     {
-                        // Sorgu parametrelerini ayarla
+                            // Sorgu parametrelerini ayarla
+                        cmd.Parameters.AddWithValue("@adet", adet);
                         cmd.Parameters.AddWithValue("@isim", isim);
                         cmd.Parameters.AddWithValue("@fiyat", fiyat);
                         cmd.Parameters.AddWithValue("@kategori", kategori);
@@ -60,10 +67,12 @@ namespace Automation
                         if (rowsAffected > 0)
                         {
                             MessageBox.Show("Ürün başarıyla eklendi!");
+                                adtbox.Text = "";
                                 textBox1.Text = "";
                                 textBox2.Text = "";
-                                comboBox1.Text = "";
-                        }
+                                comboBox1.SelectedIndex = -1;
+                                comboBox1.SelectedItem = null;
+                            }
                         else
                         {
                             MessageBox.Show("Ürün eklenirken bir hata oluştu.");
@@ -80,12 +89,15 @@ namespace Automation
             {
                 MessageBox.Show("Kimlik doğrulama başarısız. Ürün ekleme iptal edildi.");
             }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
             this.Close();
-        }
-     }
+            
+        }   
     }
+}
 

@@ -1,0 +1,471 @@
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Automation.exe.config
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Automation.exe
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Automation.pdb
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.mainView.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.Properties.Resources.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.csproj.GenerateResource.cache
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.csproj.CoreCompileInputs.cache
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.csproj.CopyComplete
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.exe
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.pdb
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.csprojAssemblyReference.cache
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.exe.config
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\netstandard.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.AppContext.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ComponentModel.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Console.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Data.Common.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Globalization.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.Compression.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.Pipes.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Linq.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Http.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Ping.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Requests.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Security.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.Sockets.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ObjectModel.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Reflection.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Resources.Reader.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Resources.Writer.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Claims.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Principal.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.SecureString.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encoding.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Thread.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Timer.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ValueTuple.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.XPath.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Google.Protobuf.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Buffers.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Memory.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.Loader.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Permissions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Json.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\ZstdSharp.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Google.Protobuf.pdb
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Google.Protobuf.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Buffers.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Memory.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Permissions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Text.Json.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\EntityFramework.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Data.SQLite.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\EntityFramework.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\System.Data.SQLite.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.kayıtFormu.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.girisFormu.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.addProducts.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.PasswordForm.resources
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.CodeParser.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.DataAccess.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Xpo.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.DataAccess.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\Enis\Desktop\C# Projeleri\Automation\Automation\obj\Debug\Automation.düzenle.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Automation.exe.config
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Automation.exe
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Automation.pdb
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\netstandard.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.AppContext.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ComponentModel.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Console.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Data.Common.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Globalization.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.Compression.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.Pipes.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Linq.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Http.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Ping.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Requests.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Security.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.Sockets.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ObjectModel.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Reflection.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Resources.Reader.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Resources.Writer.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Claims.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Principal.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.SecureString.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encoding.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Thread.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Timer.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ValueTuple.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.XPath.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.CodeParser.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.DataAccess.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Xpo.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\EntityFramework.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Google.Protobuf.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Buffers.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Data.SQLite.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Memory.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.Loader.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Permissions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Json.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\ZstdSharp.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.DataAccess.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Xpo.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\EntityFramework.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Google.Protobuf.pdb
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Google.Protobuf.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Buffers.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Data.SQLite.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Memory.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Permissions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Text.Json.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.csprojAssemblyReference.cache
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.exe.config
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.addProducts.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.düzenle.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.girisFormu.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.kayıtFormu.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.mainView.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.PasswordForm.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.Properties.Resources.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.csproj.GenerateResource.cache
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.csproj.CoreCompileInputs.cache
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.csproj.CopyComplete
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.exe
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.pdb
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.Sepet.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.deleteProducts.resources
+C:\Users\Enis\Desktop\Market Otomasyonu yedek\Automation\Automation\obj\Debug\Automation.adetForm.resources

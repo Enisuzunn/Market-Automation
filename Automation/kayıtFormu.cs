@@ -14,7 +14,7 @@ namespace Automation
 {
     public partial class kayıtFormu : Form
     {
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
+        string path = @"Data source = database.db; Version = 3;";
         string insertText = "INSERT INTO kayitbilgileri (username, password) VALUES (@username, @password)";
         
         public kayıtFormu()
@@ -108,9 +108,18 @@ namespace Automation
                                 MessageBox.Show("Kayıt başarısız!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);      
                         }       
 
-                  }
-        }
+                 }
+            }
     }
+        }
+
+        private void signup_btnview_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                MessageBox.Show("Kayıt başarılı!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide();
+            }
         }
     }
 }

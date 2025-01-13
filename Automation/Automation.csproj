@@ -210,6 +210,18 @@
     <Compile Include="addProducts.Designer.cs">
       <DependentUpon>addProducts.cs</DependentUpon>
     </Compile>
+    <Compile Include="adetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adetForm.Designer.cs">
+      <DependentUpon>adetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteProducts.Designer.cs">
+      <DependentUpon>deleteProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="düzenle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -250,6 +262,12 @@
     </Compile>
     <EmbeddedResource Include="addProducts.resx">
       <DependentUpon>addProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adetForm.resx">
+      <DependentUpon>adetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteProducts.resx">
+      <DependentUpon>deleteProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="düzenle.resx">
       <DependentUpon>düzenle.cs</DependentUpon>

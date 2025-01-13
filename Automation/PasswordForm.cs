@@ -14,7 +14,7 @@ namespace Automation
     public partial class PasswordForm : Form
     {
         public bool IsAuthenticated { get; private set; } = false;
-        string path = @"Data source = ..\..\Database\database.db; Version = 3;";
+        string path = @"Data source = database.db; Version = 3;";
         
         public PasswordForm()
         {
